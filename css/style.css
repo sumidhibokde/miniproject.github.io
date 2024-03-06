@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+.jumbotron
+{
+	background-color:#f53871;
+    padding: 2rem 4rem;
+	display: flex;
+    flex-direction: row;
+}
+ .jumbotron img{
+    width: 500px;
+  }
+
+.bg-custom{
+	background-color:#f53871;
+}
+.nav-link, .navbar-brand, .lead{
+	color: white;
+}
+.display-4{
+	font-size: 60px;
+}
+.imagedata{
+	display: flex;
+}
+#product #product-icon{
+	width: 40px;
+}
+#product #product-icon img{
+	background-color: #ed1c40;
+	margin: 5px 0px;
+}
+#product-icon{
+	position: absolute;
+	top: 25px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+#brandname{
+	color: #ed1c40;
+}
+
+#product .card:hover #product-icon{
+	opacity: 1;
+}
+#button{
+	background-color: #ed1c40;
+	margin: 5px;
+}
+
+footer{
+	margin-top: 200px;
+	background-color: #ed1c40;
+}
+.footercontainer{
+	width: 1150px;
+	padding: 70px 30px 20px;
+}
+
+.socialicon{
+	display: flex;
+	justify-content: center;
+}
+
+.socialicon a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+.socialicon a i{
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;
+}
+
+/*hover effect*/
+.socialicon a:hover{
+	background-color: white;
+	transition: 0.5s;
+}
+.footernav ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+.footernav ul li a{
+	color: white;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	opacity: 0.7;
+	transition: 0.5;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+	background-color: #ed1c40;
+	padding: 20px;
+	text-align: center;
+}
+.footerbottom p{
+	color: black;
+}
+.designer{
+	opacity: 0.7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 4px;
+	margin: 0px 5px;
+}
